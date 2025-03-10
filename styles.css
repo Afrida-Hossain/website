@@ -1,17 +1,21 @@
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+body {
+  background-image: url('images/pexels-padrinan-19670.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  background-blend-mode: lighten;
+}
+
 .parent {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
   }
-  
-  .child {
-    background-color: none;
-  }
-
   
   .intro-parent {
     display: flex;
@@ -82,9 +86,18 @@
     text-decoration: none;
   }
   
+  .description-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
   /*
   a:hover {
     background-color: #C8C5D9;
     border-radius: 2px;
   }
     */
+
+  .cat-pics-parent {
+    padding: 80px;
+  }

@@ -60,15 +60,12 @@ body {
     display: inline;
     float: left;
     border-radius: 15px;
+    background-color: rgba(220, 188, 136, 0.8);
   }
 
-  .navbar > ul > li:last-child {
-    border-right: none;
-  }
-
-  .navbar > ul > li > a:hover {
-    border: 0px;
+  .navbar > ul > li:hover {
     border-radius: 15px;
+    background-color: rgba(220, 188, 136, 1);
   }
 
   .navbar > ul > li > a {
@@ -90,7 +87,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-color: rgba(220, 188, 136, 0.659);
+    background-color: rgba(220, 188, 136, 0.8);
     border-radius: 2.5%;
     padding: 20px;
   }
@@ -103,4 +100,23 @@ body {
 
   .cat-pics-parent {
     padding: 80px;
+  }
+
+  .FAQ {
+    padding: 40px;
+    background-color: rgba(220, 188, 136, 0.8);
+    border-radius: 2.5%;
+  }
+
+  .back-to-top {
+    border-radius: 15px;
+    background-color: rgba(220, 188, 136, 0.8);
+    padding: 20px;
+    align-self: center;
+  }
+
+
+  .back-to-top:hover {
+    border-radius: 15px;
+    background-color: rgba(220, 188, 136, 1);
   }
